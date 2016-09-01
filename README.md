@@ -202,3 +202,13 @@ However, to continue evaluating the SDK, you can use the (watermarked) license f
 
 Now we can try the app on device. From Android Studio menu, select Run > Run 'app', and when the 'Select Deployment Target' dialog appears, check that your device shows up in the "Connected Devices" list, and is selected. Click OK. The application will be built and deployed to your device.
 
+![alt tag](https://cloud.githubusercontent.com/assets/12032146/18173844/e18644f0-7073-11e6-84ea-82275531210e.png)
+
+Try out panning by moving the device or pulling the image with a finger. Use 2-finger pinch and rotate to zoom and rotate the image, respectively.
+
+What next?
+----------
+
+You have barely scratched the surface! To learn more about the Orion360 SDK, clone the Orion360 SDK example app from the following Github repository, and open the project in Android Studio. Go through the examples to learn how to play videos and images from different locations, apply VR mode, add interactive hotspots, and lots of other cool features.
+
+[link]
