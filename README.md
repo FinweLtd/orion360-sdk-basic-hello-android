@@ -29,6 +29,13 @@ Choose "Empty Activity". Click Next.
 
 ![alt tag](https://cloud.githubusercontent.com/assets/12032146/18169938/ffe680fe-7064-11e6-9570-ef31edd1d9a1.png)
 
+Accept the default settings for activity name and layout file. Click Finish. New application project will be created.
+
+![alt tag](https://cloud.githubusercontent.com/assets/12032146/18169985/368fba94-7065-11e6-856f-7a48441cb84a.png)
+
+
+
+
 
 
 
