@@ -58,9 +58,11 @@ In Android Studio's Project view, expand Gradle Scripts and double click build.g
 
 ![alt tag](https://cloud.githubusercontent.com/assets/12032146/18170765/35fe720c-7068-11e6-947d-364d53b1a043.png)
 
+Find section 'allprojects' and add the following line to 'repositories':
 
-
-
+```
+maven { url 'https://finwe.bintray.com/orion360-sdk-public' } // For Orion360 SDK
+```
 
 
 
