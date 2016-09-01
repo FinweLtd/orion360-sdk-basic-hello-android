@@ -10,4 +10,10 @@ https://developer.android.com/studio/install.html
 
 Then, using the SDK Manager tool, install one or more Android SDKs. Notice that for Orion360 SDK Basic, minimum API level is 14: Android 4.0 IceCreamSandwitch.
 
+Creating an empty application project
+-------------------------------------
+
+Start Android Studio. From the welcome screen, select 'Start a new Android Studio project'.
+
+![alt tag](https://cloud.githubusercontent.com/assets/12032146/18169552/4bd00ee2-7063-11e6-8dab-a522b5296b7f.png)
 
