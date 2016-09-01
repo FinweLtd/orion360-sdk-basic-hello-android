@@ -37,7 +37,17 @@ After a moment of processing, you should see Android Studio IDE with your newly 
 
 ![alt tag](https://cloud.githubusercontent.com/assets/12032146/18170077/92465f00-7065-11e6-9bd4-f6d6df12920a.png)
 
+Connect an Android phone or tablet to your computer using a USB cable, and check that developer mode has been enabled: you should find "Developer options" under your device's Settings view. If not, navigate to Settings > About phone > Build number, and tap the section 7 times to become a developer.
 
+![alt tag](https://cloud.githubusercontent.com/assets/12032146/18170397/ddcf201e-7066-11e6-8de8-59cb7492b595.png)
+
+From Android Studio menu, select Run > Run 'app', and when the 'Select Deployment Target' dialog appears, check that your device shows up in the "Connected Devices" list, and is selected. Click OK. The application will be built and deployed to your device.
+
+![alt tag](https://cloud.githubusercontent.com/assets/12032146/18170461/1e6c8030-7067-11e6-8c17-8b3bce493e81.png)
+
+After a moment of processing, the app should start on your Android device.
+
+![alt tag](https://cloud.githubusercontent.com/assets/12032146/18170531/4d2277fe-7067-11e6-816b-97b1d4a15b60.png)
 
 
 
