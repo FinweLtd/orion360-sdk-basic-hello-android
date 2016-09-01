@@ -49,6 +49,15 @@ After a moment of processing, the app should start on your Android device.
 
 ![alt tag](https://cloud.githubusercontent.com/assets/12032146/18170531/4d2277fe-7067-11e6-816b-97b1d4a15b60.png)
 
+Adding 360 video playback capability
+------------------------------------
+
+Now that the application project skeleton is working, let's add 360 video playback capability using Orion360 SDK. 
+
+In Android Studio's Project view, expand Gradle Scripts and double click build.gradle file for the Project.
+
+![alt tag](https://cloud.githubusercontent.com/assets/12032146/18170765/35fe720c-7068-11e6-947d-364d53b1a043.png)
+
 
 
 
