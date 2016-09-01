@@ -52,17 +52,21 @@ After a moment of processing, the app should start on your Android device.
 Adding 360 video playback capability
 ------------------------------------
 
-Now that the application project skeleton is working, let's add 360 video playback capability using Orion360 SDK. 
+Now that the application project skeleton is working, let's add 360 video playback capability using Orion360 SDK.
+
+First, we need to acquire Orion360 SDK binaries. To make this super easy for developers, we distribute them via our public repository at bintray.com. Let's add the repository to the project.
 
 In Android Studio's Project view, expand Gradle Scripts and double click build.gradle file for the Project.
 
 ![alt tag](https://cloud.githubusercontent.com/assets/12032146/18170765/35fe720c-7068-11e6-947d-364d53b1a043.png)
 
-Find section 'allprojects' and add the following line to 'repositories':
+Find section 'allprojects' and add the following line inside 'repositories':
 
 ```
 maven { url 'https://finwe.bintray.com/orion360-sdk-public' } // For Orion360 SDK
 ```
 
+After editing a gradle file, the IDE suggests to sync the project. Accept the suggestion, or click the Sync button from the toolbar.
 
+![alt tag](https://cloud.githubusercontent.com/assets/12032146/18171065/4e2430aa-7069-11e6-8811-fcbbec81e86f.png)
 
