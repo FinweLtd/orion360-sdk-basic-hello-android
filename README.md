@@ -137,5 +137,50 @@ try {
 }
 ```
 
+Now you should have enough code to be able to play a video.
 
+![alt tag](https://cloud.githubusercontent.com/assets/12032146/18172784/8fd0f53c-706f-11e6-895f-f8e137e0c30a.png)
+
+Finally, we need to let the video player to respond to the activity's life cycle events, so that it can automatically pause and resume along the activity, and clean up when the activity gets destroyed. Let's propagate them to the video view as follows:
+
+```
+    @Override
+    public void onStart() {
+        super.onStart();
+
+        mOrionVideoView.onStart();
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+
+        mOrionVideoView.onResume();
+    }
+
+    @Override
+    public void onPause() {
+        mOrionVideoView.onPause();
+
+        super.onPause();
+    }
+
+    @Override
+    public void onStop() {
+        mOrionVideoView.onStop();
+
+        super.onStop();
+    }
+
+    @Override
+    public void onDestroy() {
+        mOrionVideoView.onDestroy();
+
+        super.onDestroy();
+    }
+```
+
+That's it! Now we have written all the code that is required for a basic 360 video player.
+
+![alt tag](https://cloud.githubusercontent.com/assets/12032146/18172876/f9ef3924-706f-11e6-9829-fc5e418486fe.png)
 
