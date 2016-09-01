@@ -1,4 +1,4 @@
-# Hello World with Orion360 SDK (Basic version) for Android
+# Hello World with Orion360 SDK (Basic) for Android
 
 This repository contains a minimal Hello World -style example of adding 360 video playback capability into an Android application project using Android Studio and Orion360 SDK for Android.
 
