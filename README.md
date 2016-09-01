@@ -102,7 +102,40 @@ If you now switch back to 'Design' tab, you can see that the video view will exp
 
 ![alt tag](https://cloud.githubusercontent.com/assets/12032146/18171955/68955dee-706c-11e6-8d00-690fea36c5ef.png)
 
+Finally, we need to add a few lines of code. In Android Studio's Project view, expand java > [package name] and double click MainActivity. 
 
+Add a class member variable for the video view, and press ALT+ENTER when Android Studio suggests to import the missing class (fi.finwe.orion360.OrionVideoView).
+
+```
+private OrionVideoView mOrionVideoView;
+```
+
+Then append to onCreate() method a line to retrieve the video view object that we defined in the activity's XML layout:
+
+```
+mOrionVideoView = (OrionVideoView) findViewById(R.id.orion_video_view);
+```
+
+Preparing a video for playback always takes a moment, therefore we need to become a listener for a callback that tells when the video player is ready. When the callback comes, we can start the player.
+
+```
+mOrionVideoView.setOnPreparedListener(new OrionVideoView.OnPreparedListener() {
+  @Override
+  public void onPrepared(OrionVideoView orionVideoView) {
+    mOrionVideoView.start();
+  }
+});
+```
+
+You can play a 360 video file by calling the prepare() method. When called, Orion360 SDK will first check if a valid license file is available, and then proceed to preparing the video player. When done, onPrepared() will be called - and the playback begins, as we have requested above.
+
+```
+try {
+  mOrionVideoView.prepare("http://www.finwe.mobi/orion360/test/equi/Orion360_test_video_1920x960.mp4");
+} catch (OrionVideoView.LicenseVerificationException e) {
+  Log.e("OrionVideoView", "Orion360 SDK license could not be verified!", e);
+}
+```
 
 
 
