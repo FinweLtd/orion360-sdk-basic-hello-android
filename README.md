@@ -98,7 +98,9 @@ In Android Studio's Project view, expand res > layout and double click activity_
 
 ![alt tag](https://cloud.githubusercontent.com/assets/12032146/18171902/39551fc4-706c-11e6-919d-8ab34323f89d.png)
 
+If you now switch back to 'Design' tab, you can see that the video view will expand to fill the layout.
 
+![alt tag](https://cloud.githubusercontent.com/assets/12032146/18171955/68955dee-706c-11e6-8d00-690fea36c5ef.png)
 
 
 
