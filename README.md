@@ -102,7 +102,7 @@ If you now switch back to 'Design' tab, you can see that the video view will exp
 
 ![alt tag](https://cloud.githubusercontent.com/assets/12032146/18171955/68955dee-706c-11e6-8d00-690fea36c5ef.png)
 
-Finally, we need to add a few lines of code. In Android Studio's Project view, expand java > [package name] and double click MainActivity. 
+Next, we need to add a few lines of code. In Android Studio's Project view, expand java > [package name] and double click MainActivity. 
 
 Add a class member variable for the video view, and press ALT+ENTER when Android Studio suggests to import the missing class (fi.finwe.orion360.OrionVideoView).
 
@@ -136,8 +136,6 @@ try {
   Log.e("OrionVideoView", "Orion360 SDK license could not be verified!", e);
 }
 ```
-
-Now you should have enough code to be able to play a video.
 
 ![alt tag](https://cloud.githubusercontent.com/assets/12032146/18172784/8fd0f53c-706f-11e6-895f-f8e137e0c30a.png)
 
@@ -180,7 +178,27 @@ Finally, we need to let the video player to respond to the activity's life cycle
     }
 ```
 
-That's it! Now we have written all the code that is required for a basic 360 video player.
+Now we have written all the code that is required for a basic 360 video player. 
 
 ![alt tag](https://cloud.githubusercontent.com/assets/12032146/18172876/f9ef3924-706f-11e6-9829-fc5e418486fe.png)
+
+Since we are going to stream a video file from the network, we must add INTERNET permission to the application project's manifest file, as usual. In Android Studio's Project view, expand app > manifests, and double click AndroidManifest.xml. Then add the following line above <application> section:
+
+```
+<uses-permission android:name="android.permission.INTERNET" />
+```
+
+![alt tag](https://cloud.githubusercontent.com/assets/12032146/18173579/c98d8706-7072-11e6-8d7c-5c9aecf39abf.png)
+
+That's it, now we have done all coding. But wait a minute, what about the license file? If you rush into running the app now, you will get a black video view and an error in the logcat about a failed licence verification! 
+
+To get a license file for your app, you need to buy the SDK. The license file will be locked to the package name you have defined for your app. To apply the license file, in the Android Studio's Project view, create a directory 'assets' under the 'app' root, and download and copy the license file there. Notice that the license file is signed, and you cannot change it in any way or it won't work! 
+
+However, to continue evaluating the SDK, you can use the (watermarked) license file that is provided with this tutorial:
+
+[link]
+
+![alt tag](https://cloud.githubusercontent.com/assets/12032146/18173330/e3fb482c-7071-11e6-9056-0d0cbba3c17a.png)
+
+Now we can try the app on device. From Android Studio menu, select Run > Run 'app', and when the 'Select Deployment Target' dialog appears, check that your device shows up in the "Connected Devices" list, and is selected. Click OK. The application will be built and deployed to your device.
 
