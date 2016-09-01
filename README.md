@@ -25,6 +25,12 @@ Check that "Phone and Tablet" is selected, and the minimum SDK is at least "API 
 
 ![alt tag](https://cloud.githubusercontent.com/assets/12032146/18169873/b96fda80-7064-11e6-8575-329da087c3e6.png)
 
+Choose "Empty Activity". Click Next.
+
+![alt tag](https://cloud.githubusercontent.com/assets/12032146/18169938/ffe680fe-7064-11e6-9570-ef31edd1d9a1.png)
+
+
+
 
 
 
