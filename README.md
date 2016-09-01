@@ -2,6 +2,7 @@
 
 This repository contains a minimal Hello World -style example of adding 360 video playback capability into an Android application project using Android Studio and Orion360 SDK for Android.
 
+
 Prerequisities
 --------------
 
@@ -9,6 +10,7 @@ Install Android Studio IDE (recommended version is 2.2 or newer):
 https://developer.android.com/studio/install.html
 
 Then, using the SDK Manager tool, install one or more Android SDKs. Notice that for Orion360 SDK Basic, minimum API level is 14: Android 4.0 IceCreamSandwitch.
+
 
 Creating an empty application project
 -------------------------------------
@@ -49,6 +51,7 @@ After a moment of processing, the app should start on your Android device.
 
 ![alt tag](https://cloud.githubusercontent.com/assets/12032146/18170531/4d2277fe-7067-11e6-816b-97b1d4a15b60.png)
 
+
 Adding 360 video playback capability
 ------------------------------------
 
@@ -76,9 +79,28 @@ After gradle sync has finished, in Android Studio's Project view, double click b
 compile 'fi.finwe.orion360:orion360-sdk-basic:1.2.00' // From Finwe maven repo at Bintray
 ```
 
-Notice that here we will use version '1.2.00' of the SDK binaries. When new versions are released, you can simply type here the version number that you wish to use in your project. Upgrading to the latest Orion360 version requires simply changing the version number, performing gradle sync, and rebuilding the app (unless there are API changes).
+After editing a gradle file, the IDE suggests to sync the project. Accept the suggestion, or click the Sync button from the toolbar.
+
+Notice that here we will use version '1.2.00' of the SDK binaries. When new versions are released, you can simply type here the version number that you wish to use in your project. Upgrading to the latest Orion360 version requires nothing more than changing the version number, performing gradle sync, and rebuilding the app (unless there are API changes).
 
 ![alt tag](https://cloud.githubusercontent.com/assets/12032146/18171532/0f740f72-706b-11e6-8cce-ca475b58a332.png)
+
+Now we can use Orion360 SDK in the project. Let's proceed to adding the video player. 
+
+In Android Studio's Project view, expand res > layout and double click activity_main.xml. Select 'Text' pane to hide the designer and show the layout's XML code. Then, above TextView item, add the following lines:
+
+```
+<fi.finwe.orion360.OrionVideoView
+  android:id="@+id/orion_video_view"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" />
+```
+
+![alt tag](https://cloud.githubusercontent.com/assets/12032146/18171902/39551fc4-706c-11e6-919d-8ab34323f89d.png)
+
+
+
+
 
 
 
