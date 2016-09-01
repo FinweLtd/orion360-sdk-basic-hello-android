@@ -33,6 +33,9 @@ Accept the default settings for activity name and layout file. Click Finish. New
 
 ![alt tag](https://cloud.githubusercontent.com/assets/12032146/18169985/368fba94-7065-11e6-856f-7a48441cb84a.png)
 
+After a moment of processing, you should see Android Studio IDE with your newly created project files. 
+
+![alt tag](https://cloud.githubusercontent.com/assets/12032146/18170077/92465f00-7065-11e6-9bd4-f6d6df12920a.png)
 
 
 
