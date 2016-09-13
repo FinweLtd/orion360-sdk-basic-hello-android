@@ -2,9 +2,16 @@
 
 This repository contains a minimal Hello World -style example of adding 360 video playback capability into an Android application project using Android Studio and Orion360 SDK for Android.
 
+# Table of Contents
+1. [Prerequisities](#Prerequisities)
+2. [Creating an empty application project](#Creating an empty application project)
 
-Prerequisities
---------------
+## Example
+## Example2
+## Third Example
+
+
+## Prerequisities
 
 Install Android Studio IDE (recommended version is 2.2 or newer):
 https://developer.android.com/studio/install.html
@@ -12,8 +19,7 @@ https://developer.android.com/studio/install.html
 Then, using the SDK Manager tool, install one or more Android SDKs. Notice that for Orion360 SDK Basic, minimum API level is 14: Android 4.0 IceCreamSandwitch.
 
 
-Creating an empty application project
--------------------------------------
+## Creating an empty application project
 
 Start Android Studio application. From the welcome screen, select 'Start a new Android Studio project'.
 
@@ -199,7 +205,7 @@ Since we are going to stream a video file from the network, we must add INTERNET
 
 ![alt tag](https://cloud.githubusercontent.com/assets/12032146/18173579/c98d8706-7072-11e6-8d7c-5c9aecf39abf.png)
 
-Acquiring Orion360 SDK License File
+Acquiring Orion360 SDK license file
 -----------------------------------
 
 As Orion360 SDK is a commercial product, it requires a license file to work. In order to get a license file for your own app, you need to buy the SDK. Your license file will be locked to the package name you have selected for your app. To apply the license file, in the Android Studio's Project view, create a directory 'assets' under the 'app' root, and download and copy the license file there. Notice that the license file is signed and you cannot change it in any way or it won't work.
@@ -210,8 +216,8 @@ However, to continue evaluating the SDK with the hello app, you can use the (wat
 
 ![alt tag](https://cloud.githubusercontent.com/assets/12032146/18173330/e3fb482c-7071-11e6-9056-0d0cbba3c17a.png)
 
-Running the App
----------------
+Running the application
+-----------------------
 
 Now we are ready to try the app on device. From Android Studio menu, select Run > Run 'app', and when the 'Select Deployment Target' dialog appears, check that your device shows up in the "Connected Devices" list, and is selected. Click OK. The application will be built and deployed to your device.
 
