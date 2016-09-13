@@ -6,6 +6,7 @@ Table of Contents
 -----------------
 1. [Prerequisities](#prerequisities)
 2. [Creating an empty application project](#creating-an-empty-application-project)
+3. [Acquiring Orion360 SDK binaries](#acquiring-orion360-sdk-binaries)
 
 Prerequisities
 --------------
