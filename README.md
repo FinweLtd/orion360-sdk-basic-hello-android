@@ -102,7 +102,7 @@ Adding OrionVideoView to the XML layout
 
 In Android Studio's Project view, expand res > layout and double click activity_main.xml. Select 'Text' pane to hide the designer and show the layout's XML code. Then, above TextView item, add the following lines:
 
-```
+```xml
 <fi.finwe.orion360.OrionVideoView
   android:id="@+id/orion_video_view"
   android:layout_width="match_parent"
@@ -128,13 +128,13 @@ private OrionVideoView mOrionVideoView;
 
 Then append to onCreate() method a line to retrieve the video view object that we defined in the activity's XML layout:
 
-```
+```java
 mOrionVideoView = (OrionVideoView) findViewById(R.id.orion_video_view);
 ```
 
 Preparing a video for playback always takes a moment, therefore we need to become a listener for a callback that tells when the video player is ready. When the callback comes, we can start the player.
 
-```
+```java
 mOrionVideoView.setOnPreparedListener(new OrionVideoView.OnPreparedListener() {
   @Override
   public void onPrepared(OrionVideoView orionVideoView) {
@@ -145,7 +145,7 @@ mOrionVideoView.setOnPreparedListener(new OrionVideoView.OnPreparedListener() {
 
 You can play a 360 video file by calling the prepare() method. When called, Orion360 SDK will first check if a valid license file is available, and then proceed to preparing the video player. When done, onPrepared() will be called - and the playback begins, as we have requested above.
 
-```
+```java
 try {
   mOrionVideoView.prepare("http://www.finwe.mobi/orion360/test/equi/Orion360_test_video_1920x960.mp4");
 } catch (OrionVideoView.LicenseVerificationException e) {
@@ -157,7 +157,7 @@ try {
 
 Finally, we need to let the video player to respond to the activity's life cycle events, so that it can automatically pause and resume along the activity, and clean up when the activity gets destroyed. Let's propagate them to the video view as follows:
 
-```
+```java
     @Override
     public void onStart() {
         super.onStart();
@@ -203,7 +203,7 @@ Adding Android permissions
 
 Since we are going to stream a video file from the network, we must add INTERNET permission to the application project's manifest file, as usual. In Android Studio's Project view, expand app > manifests, and double click AndroidManifest.xml. Then add the following line above 'application' section:
 
-```
+```xml
 <uses-permission android:name="android.permission.INTERNET" />
 ```
 
