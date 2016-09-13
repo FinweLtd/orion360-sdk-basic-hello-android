@@ -186,10 +186,10 @@ Finally, we need to let the video player to respond to the activity's life cycle
 
 Now we have written all Java code that is required for a basic 360 video player.
 
+![alt tag](https://cloud.githubusercontent.com/assets/12032146/18172876/f9ef3924-706f-11e6-9829-fc5e418486fe.png)
+
 Adding Android permissions
 --------------------------
-
-![alt tag](https://cloud.githubusercontent.com/assets/12032146/18172876/f9ef3924-706f-11e6-9829-fc5e418486fe.png)
 
 Since we are going to stream a video file from the network, we must add INTERNET permission to the application project's manifest file, as usual. In Android Studio's Project view, expand app > manifests, and double click AndroidManifest.xml. Then add the following line above 'application' section:
 
