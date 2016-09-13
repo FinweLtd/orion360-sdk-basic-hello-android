@@ -2,24 +2,21 @@
 
 This repository contains a minimal Hello World -style example of adding 360 video playback capability into an Android application project using Android Studio and Orion360 SDK for Android.
 
-# Table of Contents
-1. [Prerequisities](#Prerequisities)
-2. [Creating an empty application project](#Creating an empty application project)
+Table of Contents
+-----------------
+1. [Prerequisities](#prerequisities)
+2. [Creating an empty application project](#creating-an-empty-application-project)
 
-## Example
-## Example2
-## Third Example
-
-
-## Prerequisities
+Prerequisities
+--------------
 
 Install Android Studio IDE (recommended version is 2.2 or newer):
 https://developer.android.com/studio/install.html
 
 Then, using the SDK Manager tool, install one or more Android SDKs. Notice that for Orion360 SDK Basic, minimum API level is 14: Android 4.0 IceCreamSandwitch.
 
-
-## Creating an empty application project
+Creating an empty application project
+-------------------------------------
 
 Start Android Studio application. From the welcome screen, select 'Start a new Android Studio project'.
 
