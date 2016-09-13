@@ -52,8 +52,8 @@ After a moment of processing, the app should start on your Android device.
 ![alt tag](https://cloud.githubusercontent.com/assets/12032146/18170531/4d2277fe-7067-11e6-816b-97b1d4a15b60.png)
 
 
-Adding 360 video playback capability
-------------------------------------
+Acquiring Orion360 SDK binaries
+-------------------------------
 
 Now that the application project skeleton is working, let's add 360 video playback capability using Orion360 SDK.
 
@@ -85,7 +85,10 @@ Notice that here we will use version '1.2.00' of the SDK binaries. When new vers
 
 ![alt tag](https://cloud.githubusercontent.com/assets/12032146/18171532/0f740f72-706b-11e6-8cce-ca475b58a332.png)
 
-Now we can use Orion360 SDK in the project. Let's proceed to adding the video player. 
+Now we can use Orion360 SDK in the project. 
+
+Adding OrionVideoView to the XML layout
+---------------------------------------
 
 In Android Studio's Project view, expand res > layout and double click activity_main.xml. Select 'Text' pane to hide the designer and show the layout's XML code. Then, above TextView item, add the following lines:
 
@@ -102,7 +105,10 @@ If you now switch back to 'Design' tab, you can see that the video view will exp
 
 ![alt tag](https://cloud.githubusercontent.com/assets/12032146/18171955/68955dee-706c-11e6-8d00-690fea36c5ef.png)
 
-Next, we need to add a few lines of code. In Android Studio's Project view, expand java > [package name] and double click MainActivity. 
+Writing Java code
+-----------------
+
+In Android Studio's Project view, expand java > [package name] and double click MainActivity. 
 
 Add a class member variable for the video view, and press ALT+ENTER when Android Studio suggests to import the missing class (fi.finwe.orion360.OrionVideoView).
 
@@ -178,7 +184,10 @@ Finally, we need to let the video player to respond to the activity's life cycle
     }
 ```
 
-Now we have written all Java code that is required for a basic 360 video player. 
+Now we have written all Java code that is required for a basic 360 video player.
+
+Adding Android permissions
+--------------------------
 
 ![alt tag](https://cloud.githubusercontent.com/assets/12032146/18172876/f9ef3924-706f-11e6-9829-fc5e418486fe.png)
 
