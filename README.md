@@ -1,3 +1,5 @@
+![alt tag](https://cloud.githubusercontent.com/assets/12032146/18481794/3fda62e0-79e6-11e6-9f00-15bb10c29dd3.png)
+
 # Hello World with Orion360 SDK (Basic) for Android
 
 This repository contains a minimal Hello World -style example of adding 360 video playback capability into an Android application project using Android Studio and Orion360 SDK for Android.
