@@ -122,7 +122,7 @@ In Android Studio's Project view, expand java > [package name] and double click 
 
 Add a class member variable for the video view, and press ALT+ENTER when Android Studio suggests to import the missing class (fi.finwe.orion360.OrionVideoView).
 
-```
+```java
 private OrionVideoView mOrionVideoView;
 ```
 
@@ -217,8 +217,6 @@ As Orion360 SDK is a commercial product, it requires a license file to work. In 
 However, to continue evaluating the SDK with the hello app, you can use the (watermarked) license file that is provided with this tutorial. Following the instructions above, download and copy this file under your project's /assets folder:
 
 [Orion Hello License File](app/src/main/assets/fi.finwe.orion360.sdk.basic.hello.key.lic)
-
-![alt tag](app/src/main/assets/fi.finwe.orion360.sdk.basic.hello.key.lic)
 
 ![alt tag](https://cloud.githubusercontent.com/assets/12032146/18173330/e3fb482c-7071-11e6-9056-0d0cbba3c17a.png)
 
