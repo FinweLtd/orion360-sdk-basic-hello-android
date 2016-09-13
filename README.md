@@ -12,7 +12,7 @@ Table of Contents
 6. [Adding Android permissions](#adding-android-permissions)
 7. [Acquiring Orion360 SDK license file](#acquiring-orion360-sdk-license-file)
 8. [Running the application](#running-the-application)
-9. [What next?](#what-next?)
+9. [What next?](#what-next)
 
 Prerequisities
 --------------
