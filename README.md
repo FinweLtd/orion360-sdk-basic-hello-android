@@ -75,7 +75,7 @@ In Android Studio's Project view, expand Gradle Scripts and double click build.g
 
 Find section 'allprojects' and add the following line inside 'repositories':
 
-```
+```gradle
 maven { url 'https://finwe.bintray.com/orion360-sdk-public' } // For Orion360 SDK
 ```
 
@@ -85,7 +85,7 @@ After editing a gradle file, the IDE suggests to sync the project. Accept the su
 
 After gradle sync has finished, in Android Studio's Project view, double click build.gradle file for the app module. Find section 'dependencies', and add the following line inside it:
 
-```
+```groovy
 compile 'fi.finwe.orion360:orion360-sdk-basic:1.2.00' // From Finwe maven repo at Bintray
 ```
 
