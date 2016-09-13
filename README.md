@@ -178,7 +178,7 @@ Finally, we need to let the video player to respond to the activity's life cycle
     }
 ```
 
-Now we have written all the code that is required for a basic 360 video player. 
+Now we have written all Java code that is required for a basic 360 video player. 
 
 ![alt tag](https://cloud.githubusercontent.com/assets/12032146/18172876/f9ef3924-706f-11e6-9829-fc5e418486fe.png)
 
@@ -190,21 +190,27 @@ Since we are going to stream a video file from the network, we must add INTERNET
 
 ![alt tag](https://cloud.githubusercontent.com/assets/12032146/18173579/c98d8706-7072-11e6-8d7c-5c9aecf39abf.png)
 
-That's it, now we have done all coding. But wait a minute, what about the license file? If you rush into running the app now, you will get a black video view and an error in the logcat about a failed licence verification! 
+Acquiring Orion360 SDK License File
+-----------------------------------
 
-To get a license file for your app, you need to buy the SDK. The license file will be locked to the package name you have defined for your app. To apply the license file, in the Android Studio's Project view, create a directory 'assets' under the 'app' root, and download and copy the license file there. Notice that the license file is signed, and you cannot change it in any way or it won't work! 
+As Orion360 SDK is a commercial product, it requires a license file to work. In order to get a license file for your own app, you need to buy the SDK. Your license file will be locked to the package name you have selected for your app. To apply the license file, in the Android Studio's Project view, create a directory 'assets' under the 'app' root, and download and copy the license file there. Notice that the license file is signed and you cannot change it in any way or it won't work.
 
-However, to continue evaluating the SDK, you can use the (watermarked) license file that is provided with this tutorial:
+However, to continue evaluating the SDK with the hello app, you can use the (watermarked) license file that is provided with this tutorial. Following the instructions above, download and copy this file under your project's /assets folder:
 
 ![alt tag](app/src/main/assets/fi.finwe.orion360.sdk.basic.hello.key.lic)
 
 ![alt tag](https://cloud.githubusercontent.com/assets/12032146/18173330/e3fb482c-7071-11e6-9056-0d0cbba3c17a.png)
 
-Now we can try the app on device. From Android Studio menu, select Run > Run 'app', and when the 'Select Deployment Target' dialog appears, check that your device shows up in the "Connected Devices" list, and is selected. Click OK. The application will be built and deployed to your device.
+Running the App
+---------------
+
+Now we are ready to try the app on device. From Android Studio menu, select Run > Run 'app', and when the 'Select Deployment Target' dialog appears, check that your device shows up in the "Connected Devices" list, and is selected. Click OK. The application will be built and deployed to your device.
 
 ![alt tag](https://cloud.githubusercontent.com/assets/12032146/18173844/e18644f0-7073-11e6-84ea-82275531210e.png)
 
-Try out panning by moving the device or pulling the image with a finger. Use 2-finger pinch and rotate to zoom and rotate the image, respectively.
+The application begins to stream the video file from network, and when the media player has buffered enough content, video starts to play on screen. Since this is a 360 video, you can look around: try out panning by rotating the device around you or by pulling the image with a finger. Use 2-finger pinch and rotate to zoom and rotate the image, respectively.
+
+In just a few minutes, you have created your own 360 video player app that can play equirectangular MP4 video files from the network and supports gyro and touch panning, as well as pinch zooming and rotating. Pretty cool, ha?
 
 What next?
 ----------
