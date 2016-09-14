@@ -214,11 +214,13 @@ Since we are going to stream a video file from the network, we must add INTERNET
 Acquiring Orion360 SDK license file
 -----------------------------------
 
-As Orion360 SDK is a commercial product, it requires a license file to work. In order to get a license file for your own app, you need to buy the SDK. Your license file will be locked to the package name you have selected for your app. To apply the license file, in the Android Studio's Project view, create a directory 'assets' under the 'app' root, and download and copy the license file there. Notice that the license file is signed and you cannot change it in any way or it won't work.
+As Orion360 SDK is a commercial product, it requires a license file to work. In order to get a license file for your own app, you need to buy the SDK. Your license file will be locked to the package name you have selected for your app. To apply the license file, in the Android Studio's Project view, create a directory 'assets' under the 'app' root, and download and copy the license file there.
 
 However, to continue evaluating the SDK with the hello app, you can use the (watermarked) license file that is provided with this tutorial. Following the instructions above, download and copy this file under your project's /assets folder:
 
 [Orion Hello License File](app/src/main/assets/fi.finwe.orion360.sdk.basic.hello.key.lic)
+
+> Notice that the license file is a simple text file, but since it is signed, any kind of editing makes it invalid. Be careful with line endings - some file editors or version control software may silently convert between CR/LF and LF.
 
 ![alt tag](https://cloud.githubusercontent.com/assets/12032146/18173330/e3fb482c-7071-11e6-9056-0d0cbba3c17a.png)
 
