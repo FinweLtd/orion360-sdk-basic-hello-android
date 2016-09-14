@@ -7,14 +7,15 @@ This repository contains a minimal Hello World -style example of adding 360 vide
 Table of Contents
 -----------------
 1. [Prerequisities](#prerequisities)
-2. [Creating an empty application project](#creating-an-empty-application-project)
-3. [Acquiring Orion360 SDK binaries](#acquiring-orion360-sdk-binaries)
-4. [Adding OrionVideoView to the XML layout](#adding-orionvideoview-to-the-xml-layout)
-5. [Writing Java code](#writing-java-code)
-6. [Adding Android permissions](#adding-android-permissions)
-7. [Acquiring Orion360 SDK license file](#acquiring-orion360-sdk-license-file)
-8. [Running the application](#running-the-application)
-9. [What next?](#what-next)
+2. [Cloning the project](#cloning-the-project)
+3. [Creating an empty application project](#creating-an-empty-application-project)
+4. [Acquiring Orion360 SDK binaries](#acquiring-orion360-sdk-binaries)
+5. [Adding OrionVideoView to the XML layout](#adding-orionvideoview-to-the-xml-layout)
+6. [Writing Java code](#writing-java-code)
+7. [Adding Android permissions](#adding-android-permissions)
+8. [Acquiring Orion360 SDK license file](#acquiring-orion360-sdk-license-file)
+9. [Running the application](#running-the-application)
+10. [What next?](#what-next)
 
 Prerequisities
 --------------
