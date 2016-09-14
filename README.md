@@ -24,6 +24,32 @@ https://developer.android.com/studio/install.html
 
 Then, using the SDK Manager tool, install one or more Android SDKs. Notice that for Orion360 SDK Basic, minimum API level is 14: Android 4.0 IceCreamSandwitch.
 
+Cloning the project
+-------------------
+
+> You can either create the project from scratch by following the instructions below, or clone the ready project from GitHub as explained here.
+
+To clone the project from GitHub, start Android Studio, select "Check out project from Version Control" and "Git" from the popup dialog.
+
+![alt tag](https://cloud.githubusercontent.com/assets/12032146/18509522/bea74c6e-7a81-11e6-8235-03e809c49b68.png)
+
+Set repository URL, parent directory, and project directory. 
+
+Notice that the repository URL is easy to copy-paste from browser to Android Studio: click the green "Clone or download" button on the project's GitHub page, copy the URL from the dialog that appears, and paste it to Android Studio's dialog.
+
+![alt tag](https://cloud.githubusercontent.com/assets/12032146/18509660/5ce52914-7a82-11e6-821d-43321ef169ee.png)
+
+Cloning the project will take a moment. Android Studio then asks if you want to open the project. Answer "Yes".
+
+![alt tag](https://cloud.githubusercontent.com/assets/12032146/18509742/dc4a0b66-7a82-11e6-9775-392d31487363.png)
+
+The project opens, and Android Studio performs Gradle sync that will take some time (please wait). After Gradle sync finishes, you can find the project files by opening the Project view on the left.
+
+You can now proceed to connecting an Android device to your computer via a USB cable, and then run the app on device.
+
+![alt tag](https://cloud.githubusercontent.com/assets/12032146/18509763/00ad461c-7a83-11e6-98d9-e15d3b300725.png)
+
+
 Creating an empty application project
 -------------------------------------
 
@@ -62,7 +88,6 @@ From Android Studio menu, select Run > Run 'app', and when the 'Select Deploymen
 After a moment of processing, the app should start on your Android device.
 
 ![alt tag](https://cloud.githubusercontent.com/assets/12032146/18170531/4d2277fe-7067-11e6-816b-97b1d4a15b60.png)
-
 
 Acquiring Orion360 SDK binaries
 -------------------------------
