@@ -177,7 +177,7 @@ You can play a 360 video file by calling the prepare() method. When called, Orio
 
 ```java
 try {
-  mOrionVideoView.prepare("http://www.finwe.mobi/orion360/test/equi/Orion360_test_video_1920x960.mp4");
+  mOrionVideoView.prepare("https://s3.amazonaws.com/orion360-us/Orion360_test_video_2d_equi_360x180deg_1920x960pix_30fps_30sec_x264.mp4");
 } catch (OrionVideoView.LicenseVerificationException e) {
   Log.e("OrionVideoView", "Orion360 SDK license could not be verified!", e);
 }
