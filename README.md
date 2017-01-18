@@ -29,6 +29,9 @@ https://developer.android.com/studio/install.html
 
 Then, using the SDK Manager tool, install one or more Android SDKs. Notice that for Orion360 SDK Basic, minimum API level is 14: Android 4.0 IceCreamSandwitch.
 
+For accessing GitHub repositories, check that you have Git (open console and type 'git') or install it and restart Android Studio:
+https://git-scm.com
+
 Cloning the project
 -------------------
 
