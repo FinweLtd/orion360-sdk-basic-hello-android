@@ -253,6 +253,8 @@ However, to continue evaluating the SDK with the hello app, you can use the (wat
 
 [Orion Hello License File](app/src/main/assets/fi.finwe.orion360.sdk.basic.hello.key.lic)
 
+> **NEW: You can now get a watermarked evaluation license file also for your own package name by creating an account to https://store.make360app.com, starting a new SDK project, providing your own package name, and selecting FREE Trial.**
+
 > **Notice that the license file is a simple text file, but since it is signed, any kind of editing makes it invalid. Especially, watch out line endings - file editors, version control software and copy-paste operation may silently convert between CR/LF and LF characters, and even though the file looks exactly the same, it isn't!**
 
 ![alt tag](https://cloud.githubusercontent.com/assets/12032146/18173330/e3fb482c-7071-11e6-9056-0d0cbba3c17a.png)
