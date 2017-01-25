@@ -69,7 +69,7 @@ Fill in your application name, company domain, package name, and project locatio
 
 ![alt tag](https://cloud.githubusercontent.com/assets/12032146/18169775/5587bfce-7064-11e6-96d7-a36d0db27913.png)
 
-Check that "Phone and Tablet" is selected, and the minimum SDK is at least "API 14: Android 4.0 (IceCreamSandwitch)". Click Next.
+Check that "Phone and Tablet" is selected, and the minimum SDK is at least "API 14: Android 4.0 (IceCreamSandwich)". Click Next.
 
 ![alt tag](https://cloud.githubusercontent.com/assets/12032146/18169873/b96fda80-7064-11e6-8575-329da087c3e6.png)
 
