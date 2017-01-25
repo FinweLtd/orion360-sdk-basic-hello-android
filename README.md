@@ -27,7 +27,7 @@ Prerequisities
 Install Android Studio IDE (recommended version is 2.2 or newer):
 https://developer.android.com/studio/install.html
 
-Then, using the SDK Manager tool, install one or more Android SDKs. Notice that for Orion360 SDK Basic, minimum API level is 14: Android 4.0 IceCreamSandwitch.
+Then, using the SDK Manager tool, install one or more Android SDKs. Notice that for Orion360 SDK Basic, minimum API level is 14: Android 4.0 IceCreamSandwich.
 
 For accessing GitHub repositories, check that you have Git (open console and type 'git') or install it and restart Android Studio:
 https://git-scm.com
