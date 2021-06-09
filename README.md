@@ -19,13 +19,13 @@ This repository contains a minimal Hello World -style example of adding 360 vide
 > 1. In your project level build.gradle file
 > - Replace references to 'jcenter()' with 'mavenCentral()'
 > - Remove this maven repository:
-> ´´´
+> ```
 > maven {
 >            url 'https://finwe.bintray.com/orion360-sdk-public' // For Orion360 SDK
 >       }
-> ´´´
+> ```
 > - Add this maven repository
-> ´´´
+> ```
 > maven {
 >            name = "FinweOrion360SDKPublicMaven"
 >            url = uri("https://maven.pkg.github.com/finweltd/orion360-sdk-public-maven")
@@ -34,12 +34,21 @@ This repository contains a minimal Hello World -style example of adding 360 vide
 >                password = "\u0067hp_6zjSXtyiCnFn3r6XdlVXpeWmGIMovz2fHHqe"
 >            }
 >        }
-> ´´´
+> ```
 > - Notice that given credentials are mandatory, as GitHub Packages does not support unauthenticated maven repos.
 >
 > 2. In your app level build.gradle file
 > - Add '-public' to all artifactIds from Finwe repositories
-> - For example, replace 'implementation 'fi.finwe.orion360:orion360-sdk-basic:1.2.11' with 'implementation 'fi.finwe.orion360:orion360-sdk-basic-public:1.2.11'
+> - For example, replace 
+> ```
+> implementation 'fi.finwe.orion360:orion360-sdk-basic:1.2.11
+> ``` 
+> with 
+> ```
+> implementation 'fi.finwe.orion360:orion360-sdk-basic-public:1.2.11
+> ```
+>
+> That's it. Clean and rebuild your project.
 
 > IMPORTANT NOTE
 >
