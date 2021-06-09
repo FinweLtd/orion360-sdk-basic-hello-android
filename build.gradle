@@ -24,7 +24,7 @@ allprojects {
             url = uri("https://maven.pkg.github.com/finweltd/orion360-sdk-public-maven")
             credentials {
                 username = "orion360sdk"
-                password = "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"
+                password = "\u0067hp_6zjSXtyiCnFn3r6XdlVXpeWmGIMovz2fHHqe"
             }
         }
     }
