@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: fi.finwe.util:finwe-util-public:1.0.00@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/28a9dc1da797bb7947e1159fffdee8b7/jetified-finwe-util-public-1.0.00/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/28a9dc1da797bb7947e1159fffdee8b7/jetified-finwe-util-public-1.0.00/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/28a9dc1da797bb7947e1159fffdee8b7/jetified-finwe-util-public-1.0.00/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

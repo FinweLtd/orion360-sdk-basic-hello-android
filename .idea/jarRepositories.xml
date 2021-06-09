@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="MavenRepo" />
+      <option name="name" value="MavenRepo" />
+      <option name="url" value="https://repo.maven.apache.org/maven2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven" />
+      <option name="name" value="maven" />
+      <option name="url" value="https://finwe.bintray.com/orion360-sdk-public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Google" />
+      <option name="name" value="Google" />
+      <option name="url" value="https://dl.google.com/dl/android/maven2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="FinweOrion360SDKPublicMaven" />
+      <option name="name" value="FinweOrion360SDKPublicMaven" />
+      <option name="url" value="https://maven.pkg.github.com/finweltd/orion360-sdk-public-maven" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="FinweOrion360SDKPublicMaven" />
+      <option name="name" value="FinweOrion360SDKPublicMaven" />
+      <option name="url" value="https://public:&amp;#103;hp_EL46dnrTTNexj3CCl6s1GanoXkc9ZY16cwud@maven.pkg.github.com/finweltd/orion360-sdk-public-maven" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="FinweOrion360SDKPublicMaven" />
+      <option name="name" value="FinweOrion360SDKPublicMaven" />
+      <option name="url" value="https://hp_EL46dnrTTNexj3CCl6s1GanoXkc9ZY16cwud@maven.pkg.github.com/finweltd/orion360-sdk-public-maven" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="FinweOrion360SDKPublicMaven" />
+      <option name="name" value="FinweOrion360SDKPublicMaven" />
+      <option name="url" value="https://&amp;#103;hp_EL46dnrTTNexj3CCl6s1GanoXkc9ZY16cwud@maven.pkg.github.com/finweltd/orion360-sdk-public-maven" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="FinweOrion360SDKPublicMaven" />
+      <option name="name" value="FinweOrion360SDKPublicMaven" />
+      <option name="url" value="https://public:hp_EL46dnrTTNexj3CCl6s1GanoXkc9ZY16cwud@maven.pkg.github.com/finweltd/orion360-sdk-public-maven" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="FinweOrion360SDKPublicMaven" />
+      <option name="name" value="FinweOrion360SDKPublicMaven" />
+      <option name="url" value="https://orion360sdk:&amp;#103;hp_EL46dnrTTNexj3CCl6s1GanoXkc9ZY16cwud@maven.pkg.github.com/finweltd/orion360-sdk-public-maven" />
+    </remote-repository>
+  </component>
+</project>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: fi.finwe.orion360:orion360-sdk-basic-public:1.2.11@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e512e8d89ea8b4d819f0c10e4bf87b5d/jetified-orion360-sdk-basic-public-1.2.11/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e512e8d89ea8b4d819f0c10e4bf87b5d/jetified-orion360-sdk-basic-public-1.2.11/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e512e8d89ea8b4d819f0c10e4bf87b5d/jetified-orion360-sdk-basic-public-1.2.11/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

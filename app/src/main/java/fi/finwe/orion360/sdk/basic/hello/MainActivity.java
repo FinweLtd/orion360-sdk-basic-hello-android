@@ -1,5 +1,5 @@
-/**
- * Copyright (c) 2016, Finwe Ltd. All rights reserved.
+/*
+ * Copyright (c) 2016-2021, Finwe Ltd. All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without modification,
  * are permitted provided that the following conditions are met:
@@ -29,7 +29,7 @@
 
 package fi.finwe.orion360.sdk.basic.hello;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
@@ -49,22 +49,15 @@ public class MainActivity extends AppCompatActivity {
         mOrionVideoView = (OrionVideoView) findViewById(R.id.orion_video_view);
 
         // Listen when a video has been prepared.
-        mOrionVideoView.setOnPreparedListener(new OrionVideoView.OnPreparedListener() {
-            @Override
-            public void onPrepared(OrionVideoView orionVideoView) {
-                mOrionVideoView.start();
-            }
-        });
+        mOrionVideoView.setOnPreparedListener(orionVideoView -> mOrionVideoView.start());
 
         // Notice that this call will fail if a valid Orion360 license file for the package name
         // (defined in the application's manifest file) cannot be found.
         try {
-            mOrionVideoView.prepare(
-                    "http://www.finwe.mobi/orion360/test/equi/Orion360_test_video_1920x960.mp4");
+            mOrionVideoView.prepare("https://s3.amazonaws.com/orion360-us/Orion360_test_video_2d_equi_360x180deg_1920x960pix_30fps_30sec_x264.mp4");
         } catch (OrionVideoView.LicenseVerificationException e) {
             Log.e("OrionVideoView", "Orion360 SDK license could not be verified!", e);
         }
-
     }
 
     @Override
@@ -106,5 +99,4 @@ public class MainActivity extends AppCompatActivity {
 
         super.onDestroy();
     }
-
 }
